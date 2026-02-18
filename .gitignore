@@ -1,4 +1,3 @@
-# Terraform local directories
 .terraform/
 
 # Terraform state files
