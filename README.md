@@ -2,6 +2,8 @@ I built an AWS infrastructure using Terraform with remote S3 backend and DynamoD
 I provision VPC, subnet, security groups, and EC2. I use dev and prod tfvars.
 Jenkins automates terraform init, validate, plan, manual approval for prod, and apply.
 terraform-project/
+
+
 │
 ├── modules/
 │   ├── vpc/
