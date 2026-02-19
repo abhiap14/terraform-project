@@ -27,4 +27,5 @@ terraform-project/
 │
 └── backend.tf
 
+In Terraform, a child module exposes values using output blocks. The root module accesses them using module.<module_name>.<output_name> and can pass them to other modules as inputs.
 
